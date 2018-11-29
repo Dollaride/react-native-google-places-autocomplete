@@ -697,6 +697,7 @@ export default class GooglePlacesAutocomplete extends Component {
           >
             {this._renderLeftButton()}
             <TextInput
+            testID="placesInput"
               ref="textInput"
               editable={this.props.editable}
               returnKeyType={this.props.returnKeyType}
